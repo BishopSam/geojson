@@ -5,13 +5,18 @@ homepage: https://github.com/synw/geojson
 version: 1.0.0
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.2.3 <4.0.0"
 
 dependencies:
-  geodesy: ^0.4.0-nullsafety.0
+  geodesy: ^0.10.2
   geopoint: ^1.0.0
   iso: ^1.0.0
   pedantic: ^1.11.1
+
+dependency_overrides:
+  geopoint:
+    git:
+      url: https://gitlab.ecoportal.co.nz/ecoportal/ecomobile-geopoint.git
 
 dev_dependencies:
   extra_pedantic: ^1.4.0

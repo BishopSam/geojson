@@ -5,11 +5,16 @@ version: 0.1.0
 publish_to: none
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
 
 dependencies:
   geojson:
     path: ../../
+
+dependency_overrides:
+  geopoint:
+    git:
+      url: https://gitlab.ecoportal.co.nz/ecoportal/ecomobile-geopoint.git
 
 dev_dependencies:
   test: ^1.4.0
