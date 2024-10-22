@@ -28,11 +28,6 @@ dependencies:
     path: ../../
   latlong2: ^0.9.1
   rxdart: ^0.27.1
-
-dependency_overrides:
-  geopoint:
-    git:
-      url: https://gitlab.ecoportal.co.nz/ecoportal/ecomobile-geopoint.git
       
 dev_dependencies:
   flutter_test:

@@ -3,20 +3,18 @@ description: Utilities to work with geojson data. Parser with a reactive api,
   search and geofencing
 homepage: https://github.com/synw/geojson
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ">=3.2.3 <4.0.0"
 
 dependencies:
   geodesy: ^0.10.2
-  geopoint: ^1.0.0
-  iso: ^1.0.0
-  pedantic: ^1.11.1
-
-dependency_overrides:
   geopoint:
     git:
       url: https://gitlab.ecoportal.co.nz/ecoportal/ecomobile-geopoint.git
+  iso: ^1.0.0
+  pedantic: ^1.11.1
 
 dev_dependencies:
   extra_pedantic: ^1.4.0

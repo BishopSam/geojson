@@ -11,10 +11,5 @@ dependencies:
   geojson:
     path: ../../
 
-dependency_overrides:
-  geopoint:
-    git:
-      url: https://gitlab.ecoportal.co.nz/ecoportal/ecomobile-geopoint.git
-
 dev_dependencies:
   test: ^1.4.0
